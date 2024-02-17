@@ -120,5 +120,119 @@ padding-top: 110px;
 /* midnight party section end */
 
 /* place section start */
-
+.date-time{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: full;
+    height: 400px;
+    
+    background-color: #cc5399;
+    background-image: linear-gradient( to bottom, pink 50%, white);
+    position: relative;
+}
+.date {
+   position: absolute;
+   top: 35%;
+   left: 40%;
+}
+.date p{
+    font-size: x-large;
+    font-weight: 700;
+    line-height: 40px;
+    
+}
+span{
+    color: #fd0202;
+}
 /* place section end */
+
+/* bonus section start */
+.bonus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.bonus-text{
+    margin: 30px;
+}
+.bonus-text h3{
+    color: #fd0202;
+    font-weight: 500; 
+    font-family: "Protest Revolution", sans-serif;
+}
+.bonus-text h2{
+    font-weight: 800;
+    font-size: xx-large;
+     font-family: "Protest Revolution", sans-serif;
+}
+.bonus-text p{
+    justify-items: center;
+     font-family: "Protest Revolution", sans-serif;
+}
+.bonus-img{
+     margin: 30px;
+     border: 8px solid red;
+     border-radius: 50%;
+     padding: 20px;
+}
+.bonus-last{
+     margin: 30px;
+}
+.bonus-last h2{
+    color: #fd0202;
+    font-weight: 800;
+    font-size: xx-large;
+     font-family: "Protest Revolution", sans-serif;
+}
+/* bonus section end*/
+
+/* sale section start */
+.sale{
+    text-align: center;
+    position: relative;
+     font-family: "Protest Revolution", sans-serif;
+}
+.sale-text h2{
+    font-weight:bolder;
+    font-size:40px;
+    font-family: "Protest Revolution", sans-serif;
+    margin: 5px;
+}
+.sale-text span{
+    color: #fd0202;
+    font-weight:bolder;
+    font-size:40px;
+    font-family: "Protest Revolution", sans-serif;
+     margin: 5px;
+}
+.sale-text p{
+    width: 600px;
+    margin: auto;
+}
+.img3{
+    width: 100%;
+}
+.rictangle-img{
+    text-align: right;
+}
+
+.img2{
+    width: 20%;
+    margin-top: 50px;
+}
+.img1{
+    position: absolute;
+    left: 30px;
+    top: 230px;
+    width: 40%;
+    z-index: 10;
+    opacity: 0.8;
+    background-color: transparent;
+}
+.img2{
+    text-align: right;
+
+}
+/* sale section end */
