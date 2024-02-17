@@ -141,6 +141,14 @@ padding-top: 110px;
     line-height: 40px;
     
 }
+.date button{
+    color: #f1e1ee;
+    background-color: #fd0202;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
 span{
     color: #fd0202;
 }
@@ -193,6 +201,7 @@ span{
     text-align: center;
     position: relative;
      font-family: "Protest Revolution", sans-serif;
+     margin-bottom: 50px;
 }
 .sale-text h2{
     font-weight:bolder;
@@ -236,3 +245,112 @@ span{
 
 }
 /* sale section end */
+
+/* portfolio section start */
+.portfolio{
+    width: 80%;
+    margin: auto;
+}
+.portfolio-text h5{
+    color: #fd0202;
+    
+}
+.portfolio-text h2{
+    font-weight: 800;
+    font-size: xx-large;
+    margin: 0;
+}
+.portfolio-img {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    
+}
+.portfolio-img img{
+    width: 300px;
+}
+.portfolio-img img:hover{
+    width: 400px;
+    z-index: 10;
+    border-radius: 20px;
+}
+/* portfolio section end */
+
+/* email section start */
+.email{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: #f1e1ee;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+.email img{
+    width: 10%;
+}
+.email h3{
+    margin: 0;
+    font-weight: 800;
+    font-size: xx-large;
+     font-family: "Protest Revolution", sans-serif;
+}
+#email-input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius:40px 0 0 40px;
+    padding: 5px;
+}
+.email button{
+    height: 40px;
+    border: none;
+    border-radius:0 40px 40px 0;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    background-color: red;
+    gap: 0;
+    font-size: large;
+}
+/* email section end */
+
+/* footer section start */
+.location{
+    background-color: #0f1029;
+}
+.upper-site{
+display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.first-text{
+    color: #f1e1ee;
+    
+}
+.second-text{
+    color: #f1e1ee;
+}
+.number, .website{
+    display: flex;
+}
+hr{
+    width: 80%;
+    margin: auto;
+    size: 1;
+}
+.footer-img{
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+     gap: 10px;
+     margin: 20px;
+     
+}
+.lower-site{
+    color: #f1e1ee;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+/* footer section end */
