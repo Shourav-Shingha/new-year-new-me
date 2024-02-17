@@ -1,0 +1,124 @@
+*{
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,800;1,900&family=Protest+Revolution&display=swap')
+    margin: 0;
+    padding: 0;
+    
+}
+/* banner section start */
+body{
+    
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header{
+    height: auto;
+    width: auto;
+    background-image: url(./images/Banner\ Image.png)  ;
+    filter:contrast(70%);
+    filter: drop-shadow();
+   margin-bottom: 100px;
+}
+.head{
+    color: #f1eded;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    
+    
+}
+.header-text{
+    margin: auto;
+padding-top: 110px;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    z-index: 100;
+    
+}
+.header-text h1{
+    font-size: 70px;
+    color: #fdfafa;
+    filter:contrast(100%);
+}
+.header-text h4{
+    font-size: 30px;
+    color: #fdfafa;
+    filter:contrast(100%);
+}
+
+/* banner section end */
+
+/* holiday section start */
+.holiday{
+
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    
+}
+.holiday-img img{
+    width: 500px;
+    
+}
+.holiday-text h2{
+    font-size: 80px;
+    color: #fd0202;
+    margin-bottom: 40px;
+}
+.holiday-text h4{
+    color: #fd0202;
+}
+.holiday-text p{
+    color: #000;
+    font-size: 30px;
+    font-weight: bolder;
+}
+/* holiday section end */
+
+/* midnight party section start */
+.party{
+    background-image: url(./images/Vectorrr.png)  ;
+    height: 600px;
+    width: auto;
+    opacity: 0.9;
+    background-color: #0e0d0d;
+    margin-top: 50px;
+    position: relative;
+}
+.party-text{
+    width: 50%;
+    margin: auto 0;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.party-text h3{
+    font-weight: bold;
+    font-size: 70px;
+    color: #faf9f9;
+    margin-bottom: 30px;
+}
+.party-text p{
+    font-weight: bold;
+    color: #faf9f9;
+}
+.primary{
+    color:white;
+    border: none;
+    width: 90px;
+    height: 30px;
+    background-color: transparent;
+}
+.primary:hover{
+    
+    border: 2px solid rgb(101, 134, 153);
+    border-radius: 5px;
+    
+}
+/* midnight party section end */
+
+/* place section start */
+
+/* place section end */
